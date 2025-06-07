@@ -27,3 +27,7 @@
 
 ### To active the ssh server
     sudo systemctl active ssh
+
+### Allowing the port in SSH
+    sudo ufw allow 6379
+
